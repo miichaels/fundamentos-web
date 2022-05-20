@@ -1,61 +1,86 @@
-
-body{
-    margin: 0%;
+/**/
+/*Estilos da pagina index.html*/
+body {
+    margin: 0;
+   background-color: rgba(21, 14, 4, 0.463);
+    
+    background-size: cover; 
 }
 
 h1 {
+
     text-align: center;
-    color: brown;
+    color: #e50914;
     margin: 0px;
 }
 
 h2 {
-    text-align: center;
-  
+    color: #e50914;
+    ;
 }
 
-nav{
+.center {
+    text-align: center;
+}
+
+nav {
     display: flex;
     justify-content: center;
     margin: 0%;
-    padding: 5px;  
-    background-color: rgb(228, 228, 228);
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
 }
 
-.textmenu:hover{
-    color: aqua;
+.textmenu:hover {
+    color: #a31d26;
 }
 
-a{
-    color: green;
+a {
+    color: #e50914;
     margin-left: 30px;
     font-size: 30px;
     text-decoration: none;
 }
 
-ul{
+ul {
     display: flex;
     list-style: none;
 }
 
-.container{
+.container {
+    align-items: center;
     display: flex;
     margin: 50px;
 }
 
-.video{
-    display: flex;
-    justify-content: center;
-    
-}
-
 .img {
     border-radius: 10px;
-  }
+}
 
-.imgR{
+.imgR {
     width: 110%;
-    border-radius: 10px;
     height: 90%;
+    border-radius: 10px;
 
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.map {
+    width: 110%;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.video{
+     background-image: url('../img/fundo.jpg');
+     background-size: cover; 
+}
+
+.tm-social{
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
 }
