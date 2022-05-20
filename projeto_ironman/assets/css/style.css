@@ -1,0 +1,61 @@
+
+body{
+    margin: 0%;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+  
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 5px;  
+    background-color: rgb(228, 228, 228);
+}
+
+.textmenu:hover{
+    color: aqua;
+}
+
+a{
+    color: green;
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    margin: 50px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img {
+    border-radius: 10px;
+  }
+
+.imgR{
+    width: 110%;
+    border-radius: 10px;
+    height: 90%;
+
+}
