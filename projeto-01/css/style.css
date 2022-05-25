@@ -1,0 +1,30 @@
+.center{
+    text-align: center;
+}
+
+.margin{
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.mg{
+    margin-top: 150px;
+}
+
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    text-align: center;
+    align-items: baseline;
+}
+
+.img{
+    background-image: url(../assets/img/thumb-1920-691791.jpg);
+}
+
+.cor{
+    color: white;
+}
